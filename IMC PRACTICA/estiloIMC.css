@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: rgb(153, 81, 105);
+    padding: 20px;
+    left: 0px;
+    bottom: 0px;
+}
+form :hover{
+    background-color: blueviolet;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+
+label{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+form {
+    margin: 20px auto;
+    width: 300px;
+}
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: rgb(20, 20, 32);
+    color: aliceblue;
+}
